@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    max-width: 90%;
+    border-radius: 15px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.img-1 {
+    position: absolute;
+    bottom: 50%;
+    right: 59%;
+}
+
+.img-2 {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    left: 59%;
+}
+
+.card .img-card img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.img-foto {
+    margin-top: -55px;
+    border-radius: 100%;
+}
+
+.coco {
+    border-radius: 100%;
+    border: 5px solid white
+}
+
+.infor1 {
+    border-bottom: 1px solid black;
+}
+
+.infor2 {
+    margin: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.like {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 400;
+}
+
+h1 {
+    margin: 12px;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
